@@ -69,7 +69,7 @@ def Email(user,email,spot):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login('acslakey@gmail.com','1927octavia')
+    s.login('acslakey@gmail.com','*******')
     #to use lcal:
     #python -m smtpd -n -c DebuggingServer localhost:1025
     #s = smtplib.SMTP('localhost',1025)
